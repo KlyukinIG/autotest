@@ -2,25 +2,19 @@ package ru.study.autotest;
 
 import auto.pages.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Story;
-import io.qameta.allure.junit4.AllureJunit4;
-import io.qameta.allure.junit4.DisplayName;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-@RunWith(AllureJunit4.class)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class Login {
 
     WebDriver driver;
     LoginPage loginPage;
 
-    @Before
+    @BeforeEach
     public void setUP() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -29,7 +23,8 @@ public class Login {
     }
 
     @Test
-    @DisplayName("=Тест логина")
+    @Order(2)
+    @DisplayName("Тест логина1")
     @Story("Успешное лагирование пользователя")
     @Description("Тест проверки функциональности логирования")
     public void loginTest() {
@@ -40,8 +35,19 @@ public class Login {
     }
 
 
+    @Test
+    @Order(1)
+    @DisplayName("Тест логина2")
+    @Story("Успешное лагирование пользователя")
+    @Description("Тест проверки функциональности логирования")
+    public void loginTest2() {
+        loginPage.pressMainButtonForSingIn();
+        loginPage.enterUserEmail("samanoch@bk.ru");
 
-    @After
+    }
+
+
+    @AfterEach
     public void tearDown(){
         if(driver != null) {
             driver.quit();
