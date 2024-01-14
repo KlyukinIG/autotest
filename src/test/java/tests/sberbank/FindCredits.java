@@ -10,7 +10,6 @@ import static com.codeborne.selenide.Condition.*;
 
 public class FindCredits {
 
-
     @BeforeAll
     static void beforeALL(){
         Configuration.browserSize = "1920x1080";
