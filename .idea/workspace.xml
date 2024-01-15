@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c86ec505-08b4-483c-a06c-5ebade1bd299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/advego/pages/BasicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/advego/pages/LoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/advego/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/sberbank/FindCredits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/sberbank/FindCredits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/pages/BasicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/advego/pages/components/BasicConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/advego/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/mvideo/SearchItem.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +70,8 @@
       <recent name="Z:\java_core\gradelproject\src\main\java\org" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTest.notSuccessfulLogin">
-    <configuration name="FindCredits.findCredits" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DownloadFile.successfulFileUploadWithLogin">
+    <configuration name="DownloadFile.successfulFileDownload" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -84,7 +84,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.sberbank.FindCredits.findCredits&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFile.successfulFileDownload&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -95,7 +95,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.notSuccessfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DownloadFile.successfulFileUploadWithLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,31 +108,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.advego.tests.LoginTest.notSuccessfulLogin&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginTest.positiveLogin (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.advego.LoginTest.positiveLogin&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFile.successfulFileUploadWithLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,7 +143,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.successfullLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Login.successfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -180,7 +156,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.advego.tests.LoginTest.successfullLogin&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.Login.successfulLogin&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchItem.successfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.ru.imgbb.com.SearchItem.successfulLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginTest.notSuccessfulLogin" />
+        <item itemvalue="Gradle.DownloadFile.successfulFileUploadWithLogin" />
+        <item itemvalue="Gradle.DownloadFile.successfulFileDownload" />
+        <item itemvalue="Gradle.Login.successfulLogin" />
+        <item itemvalue="Gradle.SearchItem.successfulLogin" />
         <item itemvalue="Gradle.LoginTest.successfulLogin" />
-        <item itemvalue="Gradle.LoginTest.successfullLogin" />
-        <item itemvalue="Gradle.LoginTest.positiveLogin (1)" />
-        <item itemvalue="Gradle.FindCredits.findCredits" />
       </list>
     </recent_temporary>
   </component>

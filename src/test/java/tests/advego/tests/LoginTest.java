@@ -3,7 +3,7 @@ package tests.advego.tests;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import tests.advego.pages.BasicConfig;
+import tests.advego.pages.components.BasicConfig;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;

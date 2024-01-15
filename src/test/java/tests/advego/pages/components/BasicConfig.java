@@ -1,7 +1,8 @@
-package tests.advego.pages;
+package tests.advego.pages.components;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
+import tests.advego.pages.LoginForm;
 
 import static com.codeborne.selenide.Selenide.open;
 
