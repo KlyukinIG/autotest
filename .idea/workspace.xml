@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c86ec505-08b4-483c-a06c-5ebade1bd299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/baseconfig/BaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/pages/BasicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/advego/pages/components/BasicConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/advego/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/mvideo/SearchItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +57,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\java_core\gradelproject\src\main\java\org" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DownloadFile.successfulFileUploadWithLogin">
-    <configuration name="DownloadFile.successfulFileDownload" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.gradelproject [allureServe]">
+    <configuration name="DownloadFile.successfulFileUploadWhithOutLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -84,7 +85,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFile.successfulFileDownload&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFile.successfulFileUploadWhithOutLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -119,7 +120,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.successfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DownloadFile.successfulFileUploadWithOutLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.advego.tests.LoginTest.successfulLogin&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFile.successfulFileUploadWithOutLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,7 +157,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ru.imgbb.com.Login.successfulLogin&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.tests.Login.successfulLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,37 +168,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SearchItem.successfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="gradelproject [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.ru.imgbb.com.SearchItem.successfulLogin&quot;" />
+            <option value="allureServe" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DownloadFile.successfulFileUploadWithLogin" />
-        <item itemvalue="Gradle.DownloadFile.successfulFileDownload" />
+        <item itemvalue="Gradle.gradelproject [allureServe]" />
         <item itemvalue="Gradle.Login.successfulLogin" />
-        <item itemvalue="Gradle.SearchItem.successfulLogin" />
-        <item itemvalue="Gradle.LoginTest.successfulLogin" />
+        <item itemvalue="Gradle.DownloadFile.successfulFileUploadWithLogin" />
+        <item itemvalue="Gradle.DownloadFile.successfulFileUploadWithOutLogin" />
+        <item itemvalue="Gradle.DownloadFile.successfulFileUploadWhithOutLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -218,5 +217,25 @@
       <updated>1704625583991</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java</url>
+          <line>28</line>
+          <properties class="tests.ru.imgbb.com.tests.DownloadFile" method="successfulFileUploadWithLogin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
