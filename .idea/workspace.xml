@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c86ec505-08b4-483c-a06c-5ebade1bd299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/baseconfig/BaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,18 +217,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java</url>
-          <line>28</line>
-          <properties class="tests.ru.imgbb.com.tests.DownloadFile" method="successfulFileUploadWithLogin">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

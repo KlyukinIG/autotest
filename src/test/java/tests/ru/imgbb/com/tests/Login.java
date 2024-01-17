@@ -1,6 +1,7 @@
 package tests.ru.imgbb.com.tests;
 
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -9,7 +10,12 @@ import tests.ru.imgbb.com.baseconfig.BaseConfig;
 public class Login extends BaseConfig {
 
 
-    @DisplayName("Успешный вход пользователя")
+
+    @Feature("Логин пользователя")
+    @Story("Успешный вход в аккаунт")
+    @DisplayName("Пользователь вводит валидные данные и успешно входит в аккаунт")
+    @Severity(SeverityLevel.BLOCKER)
+    @Owner("Мой")
     @Tag("Blocker")
     @Tag("Login")
     @Test

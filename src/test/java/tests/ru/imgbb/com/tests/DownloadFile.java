@@ -1,5 +1,6 @@
 package tests.ru.imgbb.com.tests;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -12,7 +13,11 @@ import static com.codeborne.selenide.Selenide.*;
 public class DownloadFile extends BaseConfig{
 
 
+    @Feature("Загрузка файла")
+    @Story("Пользователь загружает файл без входа в аккаунт")
     @DisplayName("Успешная загрузка файла без логина")
+    @Severity(SeverityLevel.BLOCKER)
+    @Owner("Мой")
     @Tag("Blocker")
     @Tag("Upload")
     @Test
@@ -22,7 +27,11 @@ public class DownloadFile extends BaseConfig{
         mainPage.verificationResult();
     }
 
+    @Feature("Загрузка файла")
+    @Story("Пользователь загружает файл поле входа в аккаунт")
     @DisplayName("Успешная загрузка файла после входа в аккаунт")
+    @Severity(SeverityLevel.BLOCKER)
+    @Owner("Мой")
     @Tag("Blocker")
     @Tag("Upload")
     @Test
