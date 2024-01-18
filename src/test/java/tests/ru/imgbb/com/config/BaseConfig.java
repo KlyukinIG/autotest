@@ -1,4 +1,4 @@
-package tests.ru.imgbb.com.baseconfig;
+package tests.ru.imgbb.com.config;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;

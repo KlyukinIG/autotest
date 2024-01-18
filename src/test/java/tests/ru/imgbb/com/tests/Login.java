@@ -5,7 +5,7 @@ import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import tests.ru.imgbb.com.baseconfig.BaseConfig;
+import tests.ru.imgbb.com.config.BaseConfig;
 
 public class Login extends BaseConfig {
 
@@ -18,6 +18,7 @@ public class Login extends BaseConfig {
     @Owner("Мой")
     @Tag("Blocker")
     @Tag("Login")
+//    @Tag("imgbb")
     @Test
     void successfulLogin(){
         String login = "sanya.volk.2008@mail.ru";

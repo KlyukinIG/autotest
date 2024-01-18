@@ -4,11 +4,7 @@ import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import tests.ru.imgbb.com.baseconfig.BaseConfig;
-import tests.ru.imgbb.com.pages.MainPage;
-
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.*;
+import tests.ru.imgbb.com.config.BaseConfig;
 
 public class DownloadFile extends BaseConfig{
 
@@ -20,6 +16,7 @@ public class DownloadFile extends BaseConfig{
     @Owner("Мой")
     @Tag("Blocker")
     @Tag("Upload")
+    @Tag("imgbb")
     @Test
     void successfulFileUploadWithOutLogin(){
         mainPage.openMainPage();
@@ -34,6 +31,7 @@ public class DownloadFile extends BaseConfig{
     @Owner("Мой")
     @Tag("Blocker")
     @Tag("Upload")
+    @Tag("imgbb")
     @Test
     void successfulFileUploadWithLogin(){
         String login = "sanya.volk.2008@mail.ru";

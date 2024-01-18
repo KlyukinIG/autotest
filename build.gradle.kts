@@ -41,3 +41,15 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.register<Test>("runTestImgbb") {
+    useJUnitPlatform {
+        includeTags("imgbb")
+    }
+}
+
+tasks.register("cleanAllureResults") {
+    doLast {
+        delete("build/allure-results")
+    }
+}
