@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c86ec505-08b4-483c-a06c-5ebade1bd299" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/doc/selenide_documetation.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/config/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/baseconfig/BaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/config/BaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/pages/LoginForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/pages/components/BasicConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/tests/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/config/BaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/config/BaseConfigTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/UploadFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/sberbank/FindCredits.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +70,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,7 +82,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.gradelproject [allureServe]">
-    <configuration name="DownloadFile.successfulFileUploadWhithOutLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DownloadFileTest.successfulFileUploadWithLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -83,7 +95,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFile.successfulFileUploadWhithOutLogin&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFileTest.successfulFileUploadWithLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -94,7 +106,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DownloadFile.successfulFileUploadWithLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DownloadFileTest.successfulFileUploadWithOutLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -105,9 +117,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value=":runTestImgbb" />
             <option value="--tests" />
-            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFile.successfulFileUploadWithLogin&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFileTest.successfulFileUploadWithOutLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -118,7 +130,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DownloadFile.successfulFileUploadWithOutLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.successfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -131,7 +143,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ru.imgbb.com.tests.DownloadFile.successfulFileUploadWithOutLogin&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.tests.LoginTest.successfulLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,7 +154,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Login.successfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UploadFileTest.successfulFileUploadWithLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,7 +167,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.ru.imgbb.com.tests.Login.successfulLogin&quot;" />
+            <option value="&quot;tests.ru.imgbb.com.tests.UploadFileTest.successfulFileUploadWithLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,10 +203,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.gradelproject [allureServe]" />
-        <item itemvalue="Gradle.Login.successfulLogin" />
-        <item itemvalue="Gradle.DownloadFile.successfulFileUploadWithLogin" />
-        <item itemvalue="Gradle.DownloadFile.successfulFileUploadWithOutLogin" />
-        <item itemvalue="Gradle.DownloadFile.successfulFileUploadWhithOutLogin" />
+        <item itemvalue="Gradle.UploadFileTest.successfulFileUploadWithLogin" />
+        <item itemvalue="Gradle.DownloadFileTest.successfulFileUploadWithLogin" />
+        <item itemvalue="Gradle.LoginTest.successfulLogin" />
+        <item itemvalue="Gradle.DownloadFileTest.successfulFileUploadWithOutLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -215,5 +227,9 @@
       <updated>1704625583991</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
