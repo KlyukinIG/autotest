@@ -20,6 +20,7 @@ public class BaseConfigTests {
     @BeforeAll
     public static void setUp() {
         SelenideLogger.addListener("allure", new AllureSelenide());
+        Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
     }
 
