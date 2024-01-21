@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "Autotest project imgbb.com",
+    "environment": "",
+    "comment": "exemple poject",
+    "reportLink": "https://klyukinig.github.io/autotest",
+    "language": "ru",
+    "allureFolder": "build/reports/allure-report/allureReport/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6627714772:AAGewf-mrUOsMlocgUI2mfgj3JwzxB4zzn0",
+    "chat": "-1002040413214",
+    "replyTo": ""
+  }
+}
