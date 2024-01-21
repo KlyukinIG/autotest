@@ -56,5 +56,6 @@ tasks.test {
 }
 
 tasks.register<Exec>("runAllureNotifications") {
+    dependsOn("test")
     commandLine("java", "-DconfigFile=notifications/config.json", "-jar", "notifications/allure-notifications-4.6.1.jar")
 }
