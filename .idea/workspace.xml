@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c86ec505-08b4-483c-a06c-5ebade1bd299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/imgbbautotestexemple.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/imgbbautotestexemple.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/config/BaseConfigTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/config/BaseConfigTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

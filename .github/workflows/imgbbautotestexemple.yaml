@@ -42,4 +42,4 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-      - run: java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.6.1.jar
+
