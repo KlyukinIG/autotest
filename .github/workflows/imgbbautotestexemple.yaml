@@ -23,7 +23,7 @@ jobs:
           last-versions: 1
         #run test
       - run: chmod +x ./gradlew
-      - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
+      - run: ./gradlew clean test
 
       #download tests history
       - uses: actions/checkout@v2
