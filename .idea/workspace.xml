@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c86ec505-08b4-483c-a06c-5ebade1bd299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/doc/selenide_documetation.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/config/Attach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/imgbbautotestexemple.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/pages/LoginForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/pages/components/BasicConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/advego/tests/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/config/BaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/config/BaseConfigTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/DownloadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/UploadFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ru/imgbb/com/tests/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/sberbank/FindCredits.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
