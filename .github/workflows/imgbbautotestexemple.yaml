@@ -1,7 +1,7 @@
 name: imgbbautotestexemple
 run-name: Run autotest for website imgbb.com
 
-on: workflow_dispatch
+on: [push]
 
 jobs:
   test:
