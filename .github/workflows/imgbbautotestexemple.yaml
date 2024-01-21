@@ -20,7 +20,7 @@ jobs:
       # run test
       - run: chmod +x ./gradlew
       - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
-      - run: java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.2.1.jar
+      - run: java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.6.1.jar
       # download history tests
       - uses: actions/checkout@v2
         if: always()
