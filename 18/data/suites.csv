@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sun Jan 21 19:44:55 GMT 2024","Sun Jan 21 19:45:02 GMT 2024","6350","","tests.ru.imgbb.com.tests.UploadFileTest","","tests.ru.imgbb.com.tests.UploadFileTest","successfulFileUploadWithLogin","Успешная загрузка файла после входа в аккаунт",""
-"passed","Sun Jan 21 19:44:49 GMT 2024","Sun Jan 21 19:44:55 GMT 2024","6223","","tests.ru.imgbb.com.tests.UploadFileTest","","tests.ru.imgbb.com.tests.UploadFileTest","successfulFileUploadWithOutLogin","Успешная загрузка файла без логина",""
