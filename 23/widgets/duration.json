@@ -1,1 +1,0 @@
-[{"uid":"1610ecf4c7cd2caf","name":"Успешная загрузка файла после входа в аккаунт","time":{"start":1705873577911,"stop":1705873583816,"duration":5905},"status":"failed","severity":"blocker"},{"uid":"76f2fc6e9ec8f9c8","name":"Успешная загрузка файла без логина","time":{"start":1705873572705,"stop":1705873577834,"duration":5129},"status":"passed","severity":"blocker"}]
