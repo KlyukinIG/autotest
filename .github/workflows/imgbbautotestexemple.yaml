@@ -43,13 +43,11 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
       # folder number
-      - name: Find latest folder
-        id: find_latest_folder
+      - name: Get URL from index.html
+        id: get_url
         run: |
-          latest_folder=$(ls -d gh-pages/[0-9]* | sort -n | tail -n 1)
-          latest_number=$(basename "${latest_folder}")
-          next_number=$((latest_number + 1))
-          echo "NEXT_FOLDER_NUMBER=${next_number}" >> $GITHUB_ENV
+          url=$(awk -F '"' '/http-equiv="refresh"/{print $4}' gh-pages/index.html)
+          echo "INDEX_HTML_URL=${url}" >> $GITHUB_ENV
       # telegram
       - name: Notify in Telegram
         if: always()
@@ -58,4 +56,4 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            Allure report is here: ${{ secrets.ALLURE_REPORT }} + $NEXT_FOLDER_NUMBER
+            Allure report is here: ${{ secrets.ALLURE_REPORT }} + $INDEX_HTML_URL
