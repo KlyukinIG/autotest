@@ -42,4 +42,11 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-      - run: java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.6.1.jar
+      # telegram message
+      - uses: appleboy/telegram-action@master
+        with:
+            to: ${{ secrets.TELEGRAM_TO }}
+            token: ${{ secrets.TELEGRAM_TOKEN }}
+            message: |
+              Allure report is here: ${{ secrets.ALLURE_REPORT }}
+            
