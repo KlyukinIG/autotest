@@ -6,7 +6,7 @@
     "comment": "exemple poject",
     "reportLink": "https://klyukinig.github.io/autotest",
     "language": "ru",
-    "allureFolder": "build/allure-results",
+    "allureFolder": "$(find . -maxdepth 1 -type d -name '[0-9]*' | sort -n | tail -1)/widgets",
     "enableChart": true
   },
   "telegram": {
