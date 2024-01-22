@@ -45,8 +45,8 @@ jobs:
       # telegram message
       - uses: appleboy/telegram-action@master
         with:
-            to: ${{ secrets.TELEGRAM_TO }}
-            token: ${{ secrets.TELEGRAM_TOKEN }}
+            to: -1002040413214
+            token: 6627714772:AAGewf-mrUOsMlocgUI2mfgj3JwzxB4zzn0
             message: |
               Allure report is here: ${{ secrets.ALLURE_REPORT }}
             
