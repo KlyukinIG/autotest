@@ -6,7 +6,7 @@
     "comment": "exemple poject",
     "reportLink": "https://klyukinig.github.io/autotest",
     "language": "ru",
-    "allureFolder": "build/reports/allure-report/allureReport/",
+    "allureFolder": "build/allure-results",
     "enableChart": true
   },
   "telegram": {
