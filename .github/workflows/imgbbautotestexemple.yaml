@@ -11,14 +11,6 @@ jobs:
     steps:
       # download rep
       - uses: actions/checkout@v3
-      # clean gh-pages
-      - name: Clean gh-pages branch
-        run: |
-          git checkout gh-pages
-          git rm -r --cached .
-          git add .
-          git commit -m "Clean gh-pages branch before report generation"
-          git push origin gh-pages
       # config java
       - uses: actions/setup-java@v3
         with:
