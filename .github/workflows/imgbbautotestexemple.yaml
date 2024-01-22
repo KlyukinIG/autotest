@@ -15,7 +15,6 @@ jobs:
       - name: Clean gh-pages branch
         run: |
           git checkout gh-pages
-          git pull origin gh-pages
           git rm -r --cached .
           git add .
           git commit -m "Clean gh-pages branch before report generation"
