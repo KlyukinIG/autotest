@@ -73,7 +73,7 @@
       <recent name="Z:\java_core\gradelproject\src\main\java\org" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.gradelproject [allureServe]">
+  <component name="RunManager" selected="Gradle.UploadFileTest.successfulFileUploadWithOutLogin">
     <configuration name="DownloadFileTest.successfulFileUploadWithLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -192,8 +192,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.gradelproject [allureServe]" />
         <item itemvalue="Gradle.UploadFileTest.successfulFileUploadWithOutLogin" />
+        <item itemvalue="Gradle.gradelproject [allureServe]" />
         <item itemvalue="Gradle.gradelproject [allureReport]" />
         <item itemvalue="Gradle.UploadFileTest.successfulFileUploadWithLogin" />
         <item itemvalue="Gradle.DownloadFileTest.successfulFileUploadWithLogin" />
