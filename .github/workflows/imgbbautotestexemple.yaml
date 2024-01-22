@@ -42,6 +42,14 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
+      # folder number
+      - name: Find latest folder
+        id: find_latest_folder
+        run: |
+          latest_folder=$(ls -d gh-pages/[0-9]* | sort -n | tail -n 1)
+          latest_number=$(basename "${latest_folder}")
+          next_number=$((latest_number + 1))
+          echo "::set-output name=next_folder_number::${next_number}"
       # telegram
       - name: Notify in Telegram
         if: always()
@@ -50,4 +58,4 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            Allure report is here: ${{ secrets.ALLURE_REPORT }}
+            Allure report is here: ${{ secrets.ALLURE_REPORT }} + ${{ steps.find_latest_folder.outputs.next_folder_number }}
